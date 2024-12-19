@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { CiTimer } from "react-icons/ci";
 import { DiFirefox } from "react-icons/di";
 
-const Recipe = ({recipe,handleAdd }) => {
+const Recipe = ({recipe, index,handleAdd }) => {
     const { recipe_name, image_url, ingredients, preparing_time, short_description,calories} = recipe;
     return (
         <div>

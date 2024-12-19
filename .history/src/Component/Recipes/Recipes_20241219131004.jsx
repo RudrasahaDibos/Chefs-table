@@ -35,7 +35,7 @@ const Recipes = () => {
                 </div>
 
                 <div className="w-1/3">
-                    <h1 className="text-2xl text-center font-bold">Want To Cook : {cartRecipes.length}</h1>
+                    <h1 >{cartRecipes.length}</h1>
                     <div className="overflow-x-auto">
                         <table className="table table-zebra">
 
