@@ -1,11 +1,9 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Recipe from "./Recipe";
-import Cart from "../Cart/Cart";
 
 const Recipes = () => {
     const [Recipes,Setrecipes] = useState([])
-    const [cartRecipes, Setcartrecipes] = useState([])
     console.log(Recipes.length)
     useEffect(()=>{
           fetch('Chefes.json')
@@ -14,8 +12,7 @@ const Recipes = () => {
     },[])
   
     const handleAdd = (p) =>{
-            const newrecipe =[...cartRecipes,p]
-            Setcartrecipes(newrecipe)
+            console.log('add rec')
     }
 
 
@@ -30,7 +27,7 @@ const Recipes = () => {
                 <div className="flex justify-around max-w-7xl mx-auto ">
                      <div className=" grid grid-cols-2 w-2/3 ">
                      {
-                        Recipes.map((recipe,index)=> <Recipe key={index} recipe={recipe} handleAdd={handleAdd}></Recipe>  )
+                        Recipes.map((recipe,index)=> <Recipe key={index} recipe={recipe}></Recipe>  )
                       }
                      </div>
 
@@ -42,13 +39,33 @@ const Recipes = () => {
       <tr>
         <th></th>
         <th>Name</th>
-        <th>Time</th>
-        <th>Calories</th>
+        <th>Job</th>
+        <th>Favorite Color</th>
       </tr>
     </thead>
-           {
-            cartRecipes.map((item,idx) => <Cart key={idx} item={item}></Cart>)
-           }
+    <tbody>
+     
+      <tr>
+        <th>1</th>
+        <td>Cy Ganderton</td>
+        <td>Quality Control Specialist</td>
+        <td>Blue</td>
+      </tr>
+    
+      <tr>
+        <th>2</th>
+        <td>Hart Hagerty</td>
+        <td>Desktop Support Technician</td>
+        <td>Purple</td>
+      </tr>
+    
+      <tr>
+        <th>3</th>
+        <td>Brice Swyre</td>
+        <td>Tax Accountant</td>
+        <td>Red</td>
+      </tr>
+    </tbody>
   </table>
 </div>
                      </div>

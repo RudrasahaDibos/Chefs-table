@@ -42,12 +42,12 @@ const Recipes = () => {
       <tr>
         <th></th>
         <th>Name</th>
-        <th>Time</th>
-        <th>Calories</th>
+        <th>Job</th>
+        <th>Favorite Color</th>
       </tr>
     </thead>
            {
-            cartRecipes.map((item,idx) => <Cart key={idx} item={item}></Cart>)
+            cartRecipes.map((item,key) => <Cart key={recipe_id} item={item}></Cart>)
            }
   </table>
 </div>

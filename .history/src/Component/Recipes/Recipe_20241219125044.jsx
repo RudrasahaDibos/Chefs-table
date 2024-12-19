@@ -3,7 +3,7 @@ import { CiTimer } from "react-icons/ci";
 import { DiFirefox } from "react-icons/di";
 
 const Recipe = ({ recipe, index,handleAdd }) => {
-    const { recipe_name, image_url, ingredients, preparing_time, short_description,calories} = recipe;
+    const { recipe_name, image_url, ingredients, preparing_time, short_description,calories,recipe_id} = recipe;
     return (
         <div>
             <div className="card bg-base-100 w-96 shadow-xl mt-4">
@@ -34,7 +34,7 @@ const Recipe = ({ recipe, index,handleAdd }) => {
                             
 
                     <div className="card-actions">
-                        <button onClick={()=>handleAdd(recipe)} className="btn bg-[#0BE58A]  rounded-full">Want To Cook </button>
+                        <button onClick={()=>handleAdd(recipe_id)} className="btn bg-[#0BE58A]  rounded-full">Want To Cook </button>
                     </div>
                 </div>
             </div>
@@ -44,8 +44,8 @@ const Recipe = ({ recipe, index,handleAdd }) => {
 
 Recipe.propType = {
     recipe: PropTypes.object.isRequired,
-    index: PropTypes.array.isRequired,
-    handleAdd:PropTypes.func 
+    length: PropTypes.array.isRequired,
+    index: PropTypes.array.isRequired
 }
 
 export default Recipe;

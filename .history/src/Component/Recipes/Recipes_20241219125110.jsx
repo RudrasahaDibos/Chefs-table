@@ -14,7 +14,7 @@ const Recipes = () => {
     },[])
   
     const handleAdd = (p) =>{
-            const newrecipe =[...cartRecipes,p]
+            const newrecipe =[...Recipes,p]
             Setcartrecipes(newrecipe)
     }
 
@@ -42,12 +42,12 @@ const Recipes = () => {
       <tr>
         <th></th>
         <th>Name</th>
-        <th>Time</th>
-        <th>Calories</th>
+        <th>Job</th>
+        <th>Favorite Color</th>
       </tr>
     </thead>
            {
-            cartRecipes.map((item,idx) => <Cart key={idx} item={item}></Cart>)
+            cartRecipes.filte((item,index) => <Cart key={index} item={item}></Cart>)
            }
   </table>
 </div>

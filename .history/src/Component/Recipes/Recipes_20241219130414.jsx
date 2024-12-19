@@ -43,7 +43,7 @@ const Recipes = () => {
         <th></th>
         <th>Name</th>
         <th>Time</th>
-        <th>Calories</th>
+        <th>Favorite Color</th>
       </tr>
     </thead>
            {

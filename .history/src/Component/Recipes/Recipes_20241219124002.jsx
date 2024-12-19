@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Recipe from "./Recipe";
-import Cart from "../Cart/Cart";
 
 const Recipes = () => {
     const [Recipes,Setrecipes] = useState([])
@@ -14,7 +13,7 @@ const Recipes = () => {
     },[])
   
     const handleAdd = (p) =>{
-            const newrecipe =[...cartRecipes,p]
+            const newrecipe =[...Recipes,p]
             Setcartrecipes(newrecipe)
     }
 
@@ -41,14 +40,34 @@ const Recipes = () => {
     <thead>
       <tr>
         <th></th>
-        <th>Name</th>
-        <th>Time</th>
-        <th>Calories</th>
+        <th>{cartRecipes.recipe_name}</th>
+        <th>Job</th>
+        <th>Favorite Color</th>
       </tr>
     </thead>
-           {
-            cartRecipes.map((item,idx) => <Cart key={idx} item={item}></Cart>)
-           }
+    <tbody>
+     
+      <tr>
+        <th>1</th>
+        <td>Cy Ganderton</td>
+        <td>Quality Control Specialist</td>
+        <td>Blue</td>
+      </tr>
+    
+      <tr>
+        <th>2</th>
+        <td>Hart Hagerty</td>
+        <td>Desktop Support Technician</td>
+        <td>Purple</td>
+      </tr>
+    
+      <tr>
+        <th>3</th>
+        <td>Brice Swyre</td>
+        <td>Tax Accountant</td>
+        <td>Red</td>
+      </tr>
+    </tbody>
   </table>
 </div>
                      </div>

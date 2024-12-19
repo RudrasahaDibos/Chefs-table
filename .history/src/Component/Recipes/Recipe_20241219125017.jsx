@@ -44,8 +44,8 @@ const Recipe = ({ recipe, index,handleAdd }) => {
 
 Recipe.propType = {
     recipe: PropTypes.object.isRequired,
-    index: PropTypes.array.isRequired,
-    handleAdd:PropTypes.func 
+    length: PropTypes.array.isRequired,
+    index: PropTypes.array.isRequired
 }
 
 export default Recipe;

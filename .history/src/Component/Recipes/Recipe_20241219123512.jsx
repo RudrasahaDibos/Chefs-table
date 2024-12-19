@@ -34,7 +34,7 @@ const Recipe = ({ recipe, index,handleAdd }) => {
                             
 
                     <div className="card-actions">
-                        <button onClick={()=>handleAdd(recipe)} className="btn bg-[#0BE58A]  rounded-full">Want To Cook </button>
+                        <button o className="btn bg-[#0BE58A]  rounded-full">Want To Cook </button>
                     </div>
                 </div>
             </div>
@@ -44,8 +44,8 @@ const Recipe = ({ recipe, index,handleAdd }) => {
 
 Recipe.propType = {
     recipe: PropTypes.object.isRequired,
-    index: PropTypes.array.isRequired,
-    handleAdd:PropTypes.func 
+    length: PropTypes.array.isRequired,
+    index: PropTypes.array.isRequired
 }
 
 export default Recipe;

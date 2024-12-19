@@ -14,8 +14,8 @@ const Recipes = () => {
     },[])
   
     const handleAdd = (p) =>{
-            const newrecipe =[...cartRecipes,p]
-            Setcartrecipes(newrecipe)
+            const newrecipe =[...Recipes,p]
+            Setrecipes(newrecipe)
     }
 
 
@@ -42,12 +42,12 @@ const Recipes = () => {
       <tr>
         <th></th>
         <th>Name</th>
-        <th>Time</th>
-        <th>Calories</th>
+        <th>Job</th>
+        <th>Favorite Color</th>
       </tr>
     </thead>
            {
-            cartRecipes.map((item,idx) => <Cart key={idx} item={item}></Cart>)
+            cartRecipes.find((item) => <Cart></Cart>)
            }
   </table>
 </div>

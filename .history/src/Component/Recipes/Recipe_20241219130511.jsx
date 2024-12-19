@@ -3,7 +3,7 @@ import { CiTimer } from "react-icons/ci";
 import { DiFirefox } from "react-icons/di";
 
 const Recipe = ({ recipe, index,handleAdd }) => {
-    const { recipe_name, image_url, ingredients, preparing_time, short_description,calories} = recipe;
+    const { recipe_name, image_url, ingredients, preparing_time, short_description,calories,recipe_id} = recipe;
     return (
         <div>
             <div className="card bg-base-100 w-96 shadow-xl mt-4">
