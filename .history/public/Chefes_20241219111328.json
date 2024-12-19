@@ -1,0 +1,102 @@
+[
+     
+      {
+        "recipe_id": 1,
+        "recipe_name": "Classic Pancakes",
+        "short_description": "Fluffy and delicious pancakes perfect for breakfast.",
+        "ingredients": [
+          "1 cup all-purpose flour",
+          "2 tablespoons sugar",
+          "1 teaspoon baking powder",
+          "1/2 teaspoon baking soda",
+          "1/4 teaspoon salt",
+          "1 cup buttermilk",
+          "1 large egg",
+          "2 tablespoons melted butter"
+        ],
+        "preparing_time": "15 minutes",
+        "calories": 250,
+        "image_url":"https://i.ibb.co.com/7vWTrhh/chicken-skewers-with-slices-apples-chili-1.jpg"
+      },
+      {
+        "recipe_id": 2,
+        "recipe_name": "Beef Tacos",
+        "short_description": "Tasty beef tacos with fresh toppings.",
+        "ingredients": [
+          "500g ground beef",
+          "1 packet taco seasoning",
+          "8 taco shells",
+          "1 cup shredded lettuce",
+          "1 cup diced tomatoes",
+          "1/2 cup shredded cheese",
+          "Sour cream (optional)"
+        ],
+        "preparing_time": "20 minutes",
+        "calories": 300,
+        "image_url": "https://i.ibb.co.com/7vWTrhh/chicken-skewers-with-slices-apples-chili-1.jpghttps://i.ibb.co.com/JKW8z7K/stewed-white-beans-sliced-pumpkin-tomato-sauce.jpg"
+      },
+      {
+        "recipe_id": 3,
+        "recipe_name": "Caesar Salad",
+        "short_description": "Crisp romaine lettuce with creamy Caesar dressing and croutons.",
+        "ingredients": [
+          "1 head romaine lettuce",
+          "1/2 cup Caesar dressing",
+          "1/2 cup croutons",
+          "1/4 cup grated Parmesan cheese",
+          "Salt and pepper"
+        ],
+        "preparing_time": "10 minutes",
+        "calories": 180,
+        "image_url": "https://i.ibb.co.com/7vWTrhh/chicken-skewers-with-slices-apples-chili-1.jpg"
+      },
+      {
+        "recipe_id": 4,
+        "recipe_name": "Grilled Salmon",
+        "short_description": "Perfectly grilled salmon with a tangy lemon butter sauce.",
+        "ingredients": [
+          "4 salmon fillets",
+          "2 tablespoons olive oil",
+          "Salt and pepper",
+          "1 lemon",
+          "2 tablespoons butter"
+        ],
+        "preparing_time": "25 minutes",
+        "calories": 350,
+        "image_url": "https://i.ibb.co.com/7vWTrhh/chicken-skewers-with-slices-apples-chili-1.jpghttps://i.ibb.co.com/JKW8z7K/stewed-white-beans-sliced-pumpkin-tomato-sauce.jpg"
+      },
+      {
+        "recipe_id": 5,
+        "recipe_name": "Vegetarian Pizza",
+        "short_description": "A healthy pizza topped with fresh vegetables and cheese.",
+        "ingredients": [
+          "1 pizza crust",
+          "1/2 cup pizza sauce",
+          "1 cup mozzarella cheese",
+          "1/2 cup sliced bell peppers",
+          "1/2 cup sliced mushrooms",
+          "1/4 cup sliced black olives"
+        ],
+        "preparing_time": "30 minutes",
+        "calories": 400,
+        "image_url": "https://i.ibb.co.com/VS1dT5B/chicken-skewers-with-slices-apples-chili-1.jpg"
+      },
+      {
+        "recipe_id": 6,
+        "recipe_name": "Chocolate Brownies",
+        "short_description": "Rich and fudgy chocolate brownies with a crispy top.",
+        "ingredients": [
+          "1/2 cup butter",
+          "1 cup sugar",
+          "2 large eggs",
+          "1/3 cup cocoa powder",
+          "1/2 cup all-purpose flour",
+          "1/4 teaspoon salt",
+          "1/4 teaspoon baking powder"
+        ],
+        "preparing_time": "35 minutes",
+        "calories": 450,
+        "image_url": "https://i.ibb.co.com/7vWTrhh/chicken-skewers-with-slices-apples-chili-1.jpghttps://i.ibb.co.com/JKW8z7K/stewed-white-beans-sliced-pumpkin-tomato-sauce.jpg"
+      }
+    
+]
